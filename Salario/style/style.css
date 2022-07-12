@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+}
+
+main {
+    margin: 10px;
+}
+
+h1 {
+    color: black;
+}
+
+input {
+    background-color: #6E85B7;
+    color: #F8F9D7;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 5px;
+}
+
+div,
+#contenedor,
+#contenedor2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    font-weight: 551;
+    font-size: 18px;
+}
+
+button[type="submit"]{
+    background-color: #898AA6;
+    color: white;
+    font-weight: 600;
+    padding: 9px;
+    border-radius: 6px;
+}
